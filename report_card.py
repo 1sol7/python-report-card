@@ -26,7 +26,7 @@ for item in subjects:
     item["Grade2"] = float(input(f"Grade 2: "))
     item["Media"] = media(item["Grade1"], item["Grade2"])
     if item["Media"] >= 6:
-        item["Situation"] = "Approved"
+        item["Situation"] = "Pass"
     else:
         item["Situation"] = "Failed"
 
