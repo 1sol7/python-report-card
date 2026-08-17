@@ -28,7 +28,7 @@ for item in subjects:
     if item["Media"] >= 6:
         item["Situation"] = "Approved"
     else:
-        item["Situation"] = "Reproved"
+        item["Situation"] = "Failed"
 
 header(studentName, studentClass)
 
